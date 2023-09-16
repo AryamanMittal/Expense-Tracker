@@ -17,7 +17,7 @@ class updateView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationItem.title = "Update Details"
         let dateFormatter = DateFormatter()
            dateFormatter.dateFormat = "dd/MM/yyyy"
         

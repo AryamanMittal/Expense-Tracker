@@ -19,7 +19,7 @@ class newExpenseView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "New Expense"
         // Do any additional setup after loading the view.
     }
     
